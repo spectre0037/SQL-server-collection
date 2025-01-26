@@ -28,7 +28,7 @@ Reasons for using a naming convention (as opposed to allowing programmers to cho
 
 | Object                                   | Code | Notation   | Length | Plural | Prefix  | Suffix | Abbreviation | Char Mask    | Example                              |
 |------------------------------------------|------| ---------- |-------:|--------|---------|--------|--------------|--------------|--------------------------------------|
-| [Database]                               |      | UPPERCASE  |     30 | No     | No      | No     | Yes          | [A-z]        | `MYDATABASE`                         |
+| [Database]                               |      | UPPERCASE  |     30 | No     | No      | No     | No          | [A-z]        | `MYDATABASE`                         |
 | [Schema]                                 |      | lowercase  |     30 | No     | No      | No     | Yes          | [a-z][0-9]   | `myschema`                           |
 | [Global Temporary Table]                 |      | PascalCase |    117 | No     | No      | No     | Yes          | ##[A-z][0-9] | `##MyTable`                          |
 | [Local Temporary Table]                  |      | PascalCase |    116 | No     | No      | No     | Yes          | #[A-z][0-9]  | `#MyTable`                           |
